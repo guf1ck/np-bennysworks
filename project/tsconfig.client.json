@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "../dist/client",
+      "allowJs": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "types": ["@citizenfx/client", "@types/node"]
+    },
+    "exclude": ["src/client"]
+  }
+  

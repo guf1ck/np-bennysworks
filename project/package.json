@@ -1,0 +1,36 @@
+{
+  "name": "guf1ck-boilerplate",
+  "version": "v0",
+  "description": "KarmaDevelopments Boilerplate",
+  "scripts": {
+    "build": "npm run builds && npm run buildc",
+    "buildc": "webpack --mode production --config client.config.js",
+    "builds": "webpack --mode production --config server.config.js",
+    "watchc": "webpack --mode development --watch true --config client.config.js",
+    "watchs": "webpack --mode development --watch true --config server.config.js"
+  },
+  "keywords": [
+    "cfx",
+    "fivem",
+    "redm"
+  ],
+  "homepage": "",
+  "devDependencies": {
+    "@citizenfx/client": "^1.0.3220-1",
+    "@citizenfx/server": "^1.0.3220-1",
+    "@types/node": "^14.14.9",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-typescript-prettier": "^4.1.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "javascript-obfuscator": "^2.9.4",
+    "prettier": "^1.19.1",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "ts-loader": "^6.2.2",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

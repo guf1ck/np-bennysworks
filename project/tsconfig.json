@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    },
+    "outDir": "./",
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es2017",
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2017"],
+    "types": ["@citizenfx/server", "@citizenfx/client", "@types/node"],
+    "moduleResolution": "node",
+  },
+  "exclude": ["node_modules"]
+}
